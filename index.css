@@ -1,0 +1,295 @@
+:root {
+    background-color: antiquewhite;
+}
+/* Form */
+.container {
+  padding: 16px;
+  margin: 100px;
+  background-color: bisque;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(204, 170, 170);
+  outline: none;
+}
+
+hr {
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #BD4932;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+.signin {
+  background-color: #ffc2b6;
+  text-align: center;
+}
+
+.register-p {
+    color:#BD4932;
+}
+
+.register-b {
+    color:#BD4932;
+}
+
+.register-h2 {
+    color:#BD4932;
+}
+/* Footer */
+.footercontainer{
+    background-color: antiquewhite;
+    background-size: cover;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.footerheader{
+    color: grey;
+    font-weight:bold;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footermenu{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+  
+.footercreatedby{
+    display:flex;
+    justify-content:center;
+    color:grey;
+    
+}
+  
+.Fes-31{
+    font-weight:bold;
+    color:grey;
+  }
+
+.footermenu a {
+    color:#663B36;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footermenu a:hover{
+    color:#eb6d2f;
+}
+
+.outer_bDW:hover{
+    color:green;
+}
+
+.Fes-31:hover{
+    color:#eb6d2f;
+    transition: 01s ease-out;
+}
+
+/* Menu */ 
+#navbar ul{
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+  }
+  #navbar li:hover ul { display: block; }
+  #navbar, #navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar {
+    height: 30px;
+    background-color: rgb(235, 133, 133);
+    padding-left: 25px;
+    min-width: 470px;
+  }
+  #navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+  }
+  #navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: rgb(99, 36, 36);
+    text-decoration: none;
+    text-align: center;
+  }
+  #navbar ul li { float: none; }
+  #navbar li:hover { background-color: rgb(243, 73, 43) }
+  #navbar ul li:hover { background-color: rgb(235, 133, 133) }
+  
+/* Logo */
+.bannerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-h1 {
+    color:#BD4932;
+    text-align: center;
+}
+
+/* Content */
+#content-p {
+    color:#ff2c01;
+    font-size: 32px;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+    color:#ff2c01;
+}
+
+/* IMG */
+.img-m {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-t {
+    width: 500px;
+}
+
+.img-b2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-m2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-m3 {
+    width: 500px;
+}
+
+.img-t2 {
+    width: 500px;
+}
+
+.img-t3 {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bradd */
+#about-bradd {
+    color:#BD4932;
+} 
+.bradd-p{
+    color:#BD4932;
+}
+
+.bradd-p2{
+    color:#BD4932;
+}
+
+.bradd-h2-2 {
+    color:#BD4932;  
+}
+
+.bradd-h2-3 {
+    text-align: center;
+    color:#BD4932;  
+}
+
+.bradd-p3 {
+    text-align: center;
+    color:#BD4932;  
+}
+/* Miranda */
+#about-miranda {
+    text-align: center;
+    color:#BD4932;
+} 
+.miranda-p {
+    color:#BD4932;
+}
+
+.miranda2-h2-3 {
+    color:#BD4932;  
+}
+
+.miranda2-p3 {
+    color:#BD4932;  
+}
+
+.miranda2-p2{
+    text-align: center;
+    color:#BD4932;
+}
+
+.miranda2-h2-2 {
+    text-align: center;
+    color:#BD4932;  
+}
+/* Tom */
+#about-tom {
+    color:#BD4932;
+}
+
+.tom-p {
+    color:#BD4932;
+}
+
+.tom2-p2{
+    color:#BD4932;
+}
+
+.tom2-h2-2 {
+    color:#BD4932;  
+}
+
+.tom2-h2-3 {
+    text-align: center;
+    color:#BD4932;  
+}
+
+.tom2-p3 {
+    text-align: center;
+    color:#BD4932;  
+}

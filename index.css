@@ -293,3 +293,39 @@ hr {
     text-align: center;
     color:#BD4932;  
 }
+
+/*Contacts*/
+.contacts-us {
+    margin-top:5rem;
+}
+
+.contacts-h2 {
+    color: #BD4932;;
+    font-size: 20px;
+  }
+  
+  .contacts-subtitle {
+    color: #BD4932;;
+    font-size: 50px;
+    font-weight:bold;
+  }
+  
+  .contacts-p {
+    color: #BD4932;;
+    font-size: 20px;
+    font-weight:lighter;
+  }
+  
+  .contacts-top-p {
+    color: rgb(90, 55, 51);
+    font-size: 20px;
+    font-weight:lighter;
+  }
+  
+  .contacts-h3 {
+    color: #BD4932;;
+    font-size: 30px;
+    font-weight:bold;
+  }
+  
+  

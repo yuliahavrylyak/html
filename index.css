@@ -27,7 +27,7 @@ hr {
   margin-bottom: 25px;
 }
 
-.registerbtn {
+.enterbtn {
   background-color: #BD4932;
   color: white;
   padding: 16px 20px;
@@ -38,25 +38,25 @@ hr {
   opacity: 0.9;
 }
 
-.registerbtn:hover {
+.enterbtn:hover {
   opacity:1;
 }
 
 
-.signin {
+.enter {
   background-color: #ffc2b6;
   text-align: center;
 }
 
-.register-p {
+.enter-p {
     color:#BD4932;
 }
 
-.register-b {
+.enter-b {
     color:#BD4932;
 }
 
-.register-h2 {
+.enter-h2 {
     color:#BD4932;
 }
 /* Footer */
